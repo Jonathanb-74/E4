@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: php-PROJET01
+  name: php-projet01
   labels:
     tier: backend
 spec:
   selector:
-    app: php-PROJET01
+    app: php-projet01
     tier: backend
   ports:
 protocol: TCP
